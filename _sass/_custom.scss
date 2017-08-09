@@ -95,8 +95,25 @@ h2.greeting [aria-hidden] b{
 //     display:none;
 // }
 
-
-
+figure.photo{
+    width:100%;
+        img.self-pic{
+        transition: all 0.2s cubic-bezier(.78,.29,.53,.83);
+        clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+        display:block;
+        width:250px;
+        margin:0 auto;
+            &:hover{
+                clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+                filter: blur(5px) hue-rotate(140deg) saturate(120%);
+                }
+        }
+    figcaption.pic-desc{
+    width:250px;
+    margin:0 auto;
+    text-align:center;
+    }
+}
 
 
 
@@ -144,7 +161,7 @@ h2.greeting [aria-hidden] b{
 
 
     article.spinner [aria-hidden]:hover b:nth-of-type(2n) {
-    transform: rotateX(-375deg);
+    transform: rotateX(-395deg);
     }
     // article.spinner [aria-hidden] b:nth-of-type(2n):hover {
     //     transform: rotateY(-355deg);
