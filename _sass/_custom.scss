@@ -1,5 +1,5 @@
-$darken-color: $site-header-bg; // The color you want to use
-$lighten-color: #0e0e28; /*hsl(241deg, 49%, 41%);*/
+$darken-color: grey; // The color you want to use
+$lighten-color: hsl(4deg, 90%, 58%); /*hsl(241deg, 49%, 41%);*/
 
 $step: 1; // Set the initial step value
 
@@ -83,8 +83,9 @@ h2.greeting [aria-hidden]{
 h2.greeting [aria-hidden] b{
     display: flex;
     justify-content: center;
-    flex-flow: row wrap;
+    align-items: center;
     width: 2em;
+    height:calc(3rem + 10vh);
     font-size: 3.2em;
     margin: 0 0.2rem 0.2rem 0;
     will-change: transform;
@@ -129,7 +130,7 @@ figure.photo{
 
 
 
-@supports (display: gXrid) { 
+@supports (display: grid) { 
 
 .home{
     display:grid;
@@ -153,9 +154,8 @@ h2.greeting [aria-hidden] {
     }
 h2.greeting [aria-hidden] b{
     background: #3e3d3d;
-    height: calc(3rem + 4vh);
+    height: calc(3rem + 10vh);
     text-transform: uppercase;
-    color: #bdf0e7;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -166,6 +166,7 @@ h2.greeting [aria-hidden] b{
     line-height: 1;
     }
     section.intro{
+        display:grid;
         grid-column:4/5;
     }
     article.intro-block{
