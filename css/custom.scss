@@ -6,31 +6,33 @@
 
 
 // Our variables
-$base-font-family: Arial, Helvetica, sans-serif;
-$base-font-size:   16px;
-$base-font-weight: 400;
-$small-font-size:  $base-font-size * 0.875;
-$base-line-height: 1.6;
+$base-font-family: 	Arial, Helvetica, sans-serif;
+$base-font-size:   	16px;
+$base-font-weight: 	400;
+$small-font-size:  	$base-font-size * 0.875;
+$base-line-height: 	1.6;
 
-$spacing-unit:     30px;
+$spacing-unit:     	30px;
 
-$text-color:       #111;
-$background-color: #fdfdfd;
-$brand-color:      #2a7ae2;
+$nav-color:			#f1f3e7;
+$text-color:       	#111;
+$background-color: 	#fdfdfd;
+$brand-color:      	#2a7ae2;
 
-$grey-color:       #828282;
-$grey-color-light: lighten($grey-color, 40%);
-$grey-color-dark:  darken($grey-color, 25%);
-$site-header-bg:   hsla(66%,100%, 42%, 0.95);
-$whitesmoke-alpha:	rgba(247, 255, 248,0.95);;
+$grey-color:       	#828282;
+$grey-color-light: 	lighten($grey-color, 40%);
+$grey-color-dark:  	darken($grey-color, 25%);
+$site-header-bg:   	rgba(51, 44, 44, 0.31);
+$whitesmoke-alpha:	rgba(250, 255, 250, 0.95);
 
 // Width of the content area
-$content-width:    800px;
+$content-width:    	800px;
 
-$on-palm:          600px;
-$on-laptop:        800px;
-$foam-color: 	   #6fbba3;
-$header-title:	   #082374; 
+$on-palm:          	600px;
+$on-laptop:        	800px;
+$foam-color: 	   	#6fbba3;
+$header-title:	   	#082374;
+$custom-align:		1430px;	 
 
 
 

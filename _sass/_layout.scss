@@ -26,20 +26,25 @@
 }
 
 .site-nav {
-    float: right;
+    // float: right;
+    display:flex;
+    justify-content:center;
     line-height: 1.8rem;
-
+    border:1px solid $nav-color;
     .menu-icon {
         display: none;
     }
 
     .page-link {
-        color: $text-color;
+        color: $nav-color;
         line-height: $base-line-height;
-
+        text-decoration: none;
         // Gaps between nav items, but not on the last one
         &:not(:last-child) {
             margin-right: 20px;
+        }
+        &:hover{
+            border-bottom: 1px solid $nav-color;
         }
     }
 
