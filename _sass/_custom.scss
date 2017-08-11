@@ -1,6 +1,3 @@
-
-
-
 $darken-color: #505054; // The color you want to use
 $lighten-color: rgb(243, 251, 252); /*hsl(241deg, 49%, 41%);*/
 $testD: #004c56;
@@ -58,7 +55,14 @@ $step: $step + 1;
     }
 }
 
-
+/**
+* Text rule
+*/
+%text-rule {
+        font-size: 1.4em;
+        color: #494949;
+        line-height: 1.45em;
+}
 
 
 body{
@@ -66,7 +70,7 @@ body{
 	margin: 0 auto;
 	padding: 0;
 	max-width:80vw;
-	border:3px solid #1bbccf;
+	border:3px solid $blue-neon;
     font-family: Avenir, Futura, 'Open Sans', 'Gill Sans', 'Helvetica Neue', Arial, sans-serif;
     min-height: 100vh;
     background-color: rgb(233, 232, 249);;
@@ -142,10 +146,37 @@ figure.photo{
     }
 }
 
+article.intro-block{
+    width:67vw;
+    max-width: 67vw;
+    border: 3px solid $red-magic;
+    align-self:center;
+    margin:0;
+    padding: 1em;
+    background-color: $whitesmoke-alpha;
+    background-image: linear-gradient(#cfe9b3 2px, transparent 2px),
+    linear-gradient(90deg, #cfe9b3 1px, transparent 1px),
+    linear-gradient(rgba(4,141,54,.2) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(4,141,54,.2) 1px, transparent 1px);
+    background-size:100px 100px, 100px 100px, 20px 20px, 20px 20px;
+    background-position:-2px -2px, -2px -2px, -1px -1px, -1px -1px;
+        > p {
+        @extend %text-rule;
+        }
+         > p span.headline {
+        color: #04b8ce;
+        font-weight: bold;
+        font-size: 1.5rem;
+        }
+        > p span.rtl-healine{
+            color: $red-magic;
+            font-weight: bold;
+    }
+}
 
 
 
-@supports (display: Xgrid) { 
+@supports (display: XYgrid) { 
 
 .home{
     display:grid;
@@ -185,12 +216,6 @@ h2.greeting [aria-hidden] b{
         grid-column:1/9;
         justify-content:center;
     }
-    article.intro-block{
-        grid-column: 1/9;
-        padding: 1em;
-        border: 2px solid aliceblue;
-        background: $whitesmoke-alpha;
-    }
 }
 
 section.intro{
@@ -199,31 +224,7 @@ section.intro{
         flex-direction:column;
 
     }
-    article.intro-block{
-        width:67vw;
-        margin:0 auto;
-        padding: 1em;
-        border: 3px solid #ff006c;
-        background-color: $whitesmoke-alpha;
-        background-image: linear-gradient(#cfe9b3 2px, transparent 2px),
-        linear-gradient(90deg, #cfe9b3 1px, transparent 1px),
-        linear-gradient(rgba(4,141,54,.2) 1px, transparent 1px),
-        linear-gradient(90deg, rgba(4,141,54,.2) 1px, transparent 1px);
-        background-size:100px 100px, 100px 100px, 20px 20px, 20px 20px;
-        background-position:-2px -2px, -2px -2px, -1px -1px, -1px -1px;
-        font-size: 1.4em;
-        color: #494949;
-        line-height: 1.45em;
-         > p span.headline {
-        color: #04b8ce;
-        font-weight: bold;
-        font-size: 1.5rem;
-        }
-        > p span.rtl-healine{
-            color: #ff006c;
-            font-weight: bold;
-        }
-}
+
 
 
 

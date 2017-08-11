@@ -4,7 +4,7 @@
  * { box-sizing: border-box; }
 
 .site-header {
-    background-color: $site-header-bg;
+    background-color: $site-dark-bg;
     /*border-top: 5px solid $grey-color-dark;*/
     border-bottom: 1px solid $foam-color;
     min-height: 1.8rem;
@@ -71,9 +71,10 @@
             > svg {
                 width: 18px;
                 height: 15px;
+                color: #1bbccf;
 
-                path {
-                    fill: $grey-color-dark;
+                xpath {
+                    fill: #1bbccf;
                 }
             }
         }
@@ -105,9 +106,16 @@
 /**
  * Site footer
  */
+ .site-footer * {
+    color: $neo-magic;
+    a{
+        color: $blue-neon;
+    }
+ }
 .site-footer {
     border-top: 1px solid $grey-color-light;
-    padding: $spacing-unit 0;
+    // padding: $spacing-unit 0;
+    background-color: $site-dark-bg;
 }
 
 .footer-heading {
@@ -123,7 +131,6 @@
 
 .footer-col-wrapper {
     font-size: 15px;
-    color: $grey-color;
     margin-left: -$spacing-unit / 2;
     @extend %clearfix;
 }

@@ -9,10 +9,10 @@ gems:
 
 # Site settings
 title: Make it happen ...
-email: gingeryale7@gmail.com
+email: gingeryale7(at)gmail(dot)com
 description: > # this means to ignore newlines until "baseurl:"
  Thanks for stopping by my site. If you liked what you saw, get in touch!
- I'm available for hire as a fulltime or part time freelance or steady position
+ I'm available for hire as a fulltime or part time freelance or salaried.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://yourdomain.com" # the base hostname & protocol for your site
 twitter_username: jekyllrb
