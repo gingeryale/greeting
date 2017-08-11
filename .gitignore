@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-_site
-.sass-cache
-=======
 _site/
 .sass-cache/
->>>>>>> 183fa6e66e86a4bea06c93598407ab1992a81f63
 .jekyll-metadata
+.DS_Store
