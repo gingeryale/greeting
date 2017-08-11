@@ -1,6 +1,8 @@
 /**
  * Site header
  */
+ * { box-sizing: border-box; }
+
 .site-header {
     background-color: $site-header-bg;
     /*border-top: 5px solid $grey-color-dark;*/

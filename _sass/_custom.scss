@@ -1,5 +1,10 @@
+
+
+
 $darken-color: #505054; // The color you want to use
 $lighten-color: rgb(243, 251, 252); /*hsl(241deg, 49%, 41%);*/
+$testD: #004c56;
+$testL: #fff;
 
 $step: 1; // Set the initial step value
 
@@ -12,6 +17,11 @@ h2.greeting [aria-hidden] b:nth-child(#{$step}) {
     // Here we use the SASS darken function and darken our color by 2% each time.  Set this to whatever percentage you like. 
     color: darken($darken-color, ($step * 2%));
     background-color: lighten($lighten-color, ($step * 2%));
+}
+
+h2.greeting [aria-hidden]:hover b:nth-child(#{$step}) {
+    // Here we use the SASS darken function and darken our color by 2% each time.  Set this to whatever percentage you like. 
+    color: lighten($testD, ($step * 2%));
 }
 
 // Increment the step up by 1 so it continues until you've reached 10 (which you specified at the beginning of the function)
@@ -56,10 +66,10 @@ body{
 	margin: 0 auto;
 	padding: 0;
 	max-width:80vw;
-	border:2px solid $site-header-bg;
-    font-family: Avenir, Futura, 'Open Sans', 'Gill Sans', 'Helvetica Neue', Ariel, sans-serif;
+	border:3px solid #1bbccf;
+    font-family: Avenir, Futura, 'Open Sans', 'Gill Sans', 'Helvetica Neue', Arial, sans-serif;
     min-height: 100vh;
-    background-color: rgba(235, 207, 72, 0.7);
+    background-color: rgb(233, 232, 249);;
     background-image: url('https://c2.staticflickr.com/8/7739/17668630904_7932a02c7d_k.jpg');
     background-position: 10% 90%;
 }
@@ -84,20 +94,21 @@ h2.greeting [aria-hidden]{
     display: flex;
     flex-wrap: wrap;
     padding:1em;
+    justify-content:right;
     }
 
 h2.greeting [aria-hidden] b{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 2em;
+    text-transform: uppercase;
+    width: 3em;
     height:calc(3rem + 10vh);
-    font-size: 3.2em;
+    font-size: 2.8rem;
     margin: 0 0.2rem 0.2rem 0;
     will-change: transform;
     transition: transform 1s;
     line-height: 1;
-    color: #fff;
 }
 
 
@@ -109,7 +120,7 @@ figure.photo{
     width:100%;
         img.self-pic{
         display:block;
-        width:180px;
+        width:220px;
         margin:0 auto;
         transition: all 0.3s cubic-bezier(.78,.29,.53,.83);
         clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
@@ -122,22 +133,19 @@ figure.photo{
                 }
         }
     figcaption.pic-desc{
-    width:250px;
+    width:220px;
     margin:0 auto;
     text-align:center;
     transition: all 0.9s ease;
     color: $whitesmoke-alpha;
     line-height: 2rem;
-    &:hover{
-            text-align: left;
-        }
     }
 }
 
 
 
 
-@supports (display: grid) { 
+@supports (display: Xgrid) { 
 
 .home{
     display:grid;
@@ -188,29 +196,33 @@ h2.greeting [aria-hidden] b{
 section.intro{
         display:flex;
         justify-content: center;
+        flex-direction:column;
 
     }
     article.intro-block{
-        display: block;
-        width:60vw;
+        width:67vw;
         margin:0 auto;
         padding: 1em;
         border: 3px solid #ff006c;
         background-color: $whitesmoke-alpha;
-        background-image: linear-gradient(#cdf0a7 2px, transparent 2px),
-        linear-gradient(90deg, #cdf0a7 1px, transparent 1px),
+        background-image: linear-gradient(#cfe9b3 2px, transparent 2px),
+        linear-gradient(90deg, #cfe9b3 1px, transparent 1px),
         linear-gradient(rgba(4,141,54,.2) 1px, transparent 1px),
         linear-gradient(90deg, rgba(4,141,54,.2) 1px, transparent 1px);
         background-size:100px 100px, 100px 100px, 20px 20px, 20px 20px;
         background-position:-2px -2px, -2px -2px, -1px -1px, -1px -1px;
         font-size: 1.4em;
-        color: #313131;
+        color: #494949;
         line-height: 1.45em;
-         > .headline{
-        color: #1bbccf;
+         > p span.headline {
+        color: #04b8ce;
         font-weight: bold;
         font-size: 1.5rem;
-    }
+        }
+        > p span.rtl-healine{
+            color: #ff006c;
+            font-weight: bold;
+        }
 }
 
 
