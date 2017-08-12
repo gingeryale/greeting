@@ -33,6 +33,7 @@
     justify-content:center;
     line-height: 1.8rem;
     border:1px solid $nav-color;
+    background-color: rgba(0,0,0,0.3);
     .menu-icon {
         display: none;
     }
@@ -46,7 +47,8 @@
             margin-right: 20px;
         }
         &:hover{
-            border-bottom: 1px solid $nav-color;
+            border-bottom: 2px solid $red-magic;
+
         }
     }
 
@@ -63,17 +65,16 @@
             display: block;
             float: right;
             width: 36px;
-            height: 26px;
+            height: 1.6em;
             line-height: 0;
-            padding-top: 10px;
+            padding-top: 0.4em;
             text-align: center;
 
             > svg {
                 width: 18px;
                 height: 15px;
                 color: #1bbccf;
-
-                xpath {
+                path{
                     fill: #1bbccf;
                 }
             }
@@ -111,6 +112,9 @@
     a{
         color: $blue-neon;
     }
+    p{
+        padding:0.4em;
+    }
  }
 .site-footer {
     border-top: 1px solid $grey-color-light;
@@ -131,7 +135,7 @@
 
 .footer-col-wrapper {
     font-size: 15px;
-    margin-left: -$spacing-unit / 2;
+    // margin-left: -$spacing-unit / 2;
     @extend %clearfix;
 }
 
@@ -175,8 +179,18 @@
         width: -webkit-calc(100% - (#{$spacing-unit} / 2));
         width:         calc(100% - (#{$spacing-unit} / 2));
     }
+    .site-nav {
+    position: absolute;
+    top: unset;
+    right: unset;
+    background-color: #fdfdfd;
+    border: 1px solid #e0d7bf;
+    border-radius: 0px;
+    text-align: right;
+    width: 100%;
+    z-index: 1;
+    }
 }
-
 
 
 /**

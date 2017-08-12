@@ -4,7 +4,7 @@
 # which you are expected to set up once and rarely need to edit after that.
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # 'jekyll serve'. If you change this file, please restart the server process.
-gems:
+plugins:
   - octopress-autoprefixer
 
 # Site settings
@@ -12,7 +12,7 @@ title: Make it happen ...
 email: gingeryale7(at)gmail(dot)com
 description: > # this means to ignore newlines until "baseurl:"
  Thanks for stopping by my site. If you liked what you saw, get in touch!
- I'm available for hire as a fulltime or part time freelance or salaried.
+ I'm available for hire as a fulltime or part time freelance or salaried job.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://yourdomain.com" # the base hostname & protocol for your site
 twitter_username: jekyllrb
