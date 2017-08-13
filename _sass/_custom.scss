@@ -175,7 +175,7 @@ article.intro-block{
 
 
 
-@supports (display: grid) { 
+@supports (display: XXgrid) { 
 
 .home{
     display:grid;
@@ -218,7 +218,7 @@ h2.greeting [aria-hidden] {
 
 
 
-    @media only screen and (max-width: $v-iphone) {
+    @media only screen and (max-width: $med-mobile) {
         h2.greeting{
             padding:0;
             border:3px solid yellow;
@@ -257,15 +257,34 @@ section.intro{
     }
 
 
-@media screen and (max-width: $custom-align) {
+@media screen and (max-width: $desktop-std) {
     h2.greeting [aria-hidden] {
-        justify-content: center;
+        > b{
+            width: 2.2em;
+        }
     }
 }
-@media screen and (max-width: $v-iphone) {
+@media screen and (min-width: $desktop-std) {
+    h2.greeting [aria-hidden] b {
+        width: 3em;
+    }
+}
+
+@media screen and (max-width: $tablet) {
+    h2.greeting [aria-hidden] {
+        justify-content: center;
+        > b{
+            width: 3em;
+        }
+    }
+}
+
+
+@media screen and (max-width: $med-mobile) {
     h2.greeting [aria-hidden] b{
-        height: calc(3rem + 4vh);
+        height: calc(2rem + 3vh);
         font-size: 1.3rem;
+        width: 3.4em;
     }
     figure.photo img.self-pic, figure.photo figcaption.pic-desc{
         width:175px;
@@ -284,6 +303,11 @@ section.intro{
     }
 }
 
+@media screen and (max-width: $xtra-small) {
+    h2.greeting [aria-hidden]{
+            padding: 0.55em;
+        }
+}
 
 
 
