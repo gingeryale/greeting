@@ -30,10 +30,11 @@
 .site-nav {
     // float: right;
     display:flex;
-    justify-content:center;
+    justify-content:flex-end;
     line-height: 1.8rem;
     border:1px solid $nav-color;
     background-color: rgba(0,0,0,0.3);
+    padding: 0 0.5em;
     .menu-icon {
         display: none;
     }
@@ -64,13 +65,13 @@
             width: 100%;
             z-index: 1;
             display: flex;
-            justify-content: flex-start;
+            justify-content: flex-end;
 
     }
         .menu-icon {
             display: inline-flex;
-            justify-content: flex-start;
-            width: 10%;
+            justify-content: flex-end;
+            width: 50%;
             height: 1.6em;
             line-height: 0;
             padding-top: 0.4em;
