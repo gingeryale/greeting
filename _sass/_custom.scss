@@ -45,8 +45,8 @@ $step: $step + 1;
 
     > svg {
         display: inline-block;
-        width: 16px;
-        height: 16px;
+        width: 18px;
+        height: 18px;
         vertical-align: middle;
 
         path {
@@ -98,7 +98,7 @@ h2.greeting [aria-hidden]{
     display: flex;
     flex-wrap: wrap;
     padding:1em;
-    justify-content:right;
+    justify-content:flex-end;
     }
 
 h2.greeting [aria-hidden] b{
@@ -175,7 +175,7 @@ article.intro-block{
 
 
 
-@supports (display: XYgrid) { 
+@supports (display: grid) { 
 
 .home{
     display:grid;
@@ -196,33 +196,51 @@ h2.greeting [aria-hidden] {
     grid-gap:0.250rem;
     grid-template-columns: repeat(6, 1fr) 0;
     // width:100%;
-    }
-h2.greeting [aria-hidden] b{
-    background: #3e3d3d;
-    height: calc(3rem + 10vh);
-    text-transform: uppercase;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 2.8rem;
-    will-change: transform;
-    transition: transform 1s;
-    line-height: 1;
+        > b{
+            background: #3e3d3d;
+            height: calc(3rem + 10vh);
+            text-transform: uppercase;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 2.8rem;
+            will-change: transform;
+            transition: transform 1s;
+            line-height: 1;
+        }
     }
     section.intro{
         display:grid;
         grid-column:1/9;
         justify-content:center;
     }
+
+
+
+    @media only screen and (max-width: $v-iphone) {
+        h2.greeting{
+            padding:0;
+            border:3px solid yellow;
+            }
+        h2.greeting [aria-hidden]{
+            padding: 0.5em 0.3em;
+            > b{
+                height: calc(2rem + 4vh);
+                font-size: 1.3rem;
+            }
+        }
+            
+
+        } /* end media Q 480 */
 }
+
 
 section.intro{
         display:flex;
         justify-content: center;
         flex-direction:column;
-
-    }
+}
 
 
 
@@ -242,6 +260,27 @@ section.intro{
 @media screen and (max-width: $custom-align) {
     h2.greeting [aria-hidden] {
         justify-content: center;
+    }
+}
+@media screen and (max-width: $v-iphone) {
+    h2.greeting [aria-hidden] b{
+        height: calc(3rem + 4vh);
+        font-size: 1.3rem;
+    }
+    figure.photo img.self-pic, figure.photo figcaption.pic-desc{
+        width:175px;
+    }
+    article.intro-block{
+        padding:0 1em;
+        > p span.headline{
+            font-size: 1.25em;
+        }
+        > p{
+            font-size: 1.1em;
+        }
+    }
+    .footer-col ul {
+    padding-left: 1em;
     }
 }
 
