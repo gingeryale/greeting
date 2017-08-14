@@ -30,7 +30,7 @@
 .site-nav {
     // float: right;
     display:flex;
-    justify-content:flex-end;
+    justify-content:center;
     line-height: 1.8rem;
     border:1px solid $nav-color;
     background-color: rgba(0,0,0,0.3);
@@ -53,25 +53,20 @@
         }
     }
 
-    @include media-query($on-palm) {
-        .site-nav {
+    @include media-query($med-mobile) {
             position: absolute;
-            top: unset;
-            right: unset;
-            background-color: #fdfdfd;
-            border-top: 1px solid #6fbba3;
+            top: 0;
+            left: 0;
+            background-color: rgba(0,0,0,0.8);
+            border: none;
             border-radius: 0px;
             text-align: right;
-            width: 100%;
             z-index: 1;
-            display: flex;
-            justify-content: flex-end;
+            justify-content: unset;
 
-    }
         .menu-icon {
             display: inline-flex;
             justify-content: flex-end;
-            width: 50%;
             height: 1.6em;
             line-height: 0;
             padding-top: 0.4em;
@@ -193,7 +188,9 @@
  * Page content
  */
 .page-content {
-    padding: $spacing-unit 0;
+    padding: $spacing-unit;
+    background-color: rgba(33,33,75,0.6);
+    color:lighten($foam-color, 34%);
 }
 
 .page-heading {
@@ -230,7 +227,7 @@
 
 .post-title {
     font-size: 42px;
-    letter-spacing: -1px;
+    letter-spacing: -0.331px;
     line-height: 1;
 
     @include media-query($on-laptop) {
