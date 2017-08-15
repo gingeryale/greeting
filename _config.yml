@@ -9,7 +9,7 @@ plugins_dir:
 
 # Site settings
 title: Make it happen ...
-email: ginale7(at)gmail(dot)com
+email: "&#103;&#105;&#110;&#097;&#108;&#101;&#055;&#064;&#103;&#109;&#120;&#046;&#099;&#111;&#109;"
 description: > # this means to ignore newlines until "baseurl:"
  &copy; 2017 gingeryale
 baseurl: "" # the subpath of your site, e.g. /blog
