@@ -9,4 +9,14 @@ permalink: /contact/
 	<p>
 	<span><a href="tel:01234567890">(012) 345-6789</a></span>
 </p>
+<section>
+	<div class="card">
+    <figure class="photo">
+      <!-- <img class="self-pic" src="http://www.fillmurray.com/251/251" alt="pic"> -->
+      <img class="self-pic" src="/images/self.gif" alt="pic">
+
+      <figcaption class="pic-desc">אילת</figcaption>
+    </figure>
+  </div>
+</section>
 </div>

@@ -2,7 +2,9 @@
  * Site header
  */
  * { box-sizing: border-box; }
-
+* a {
+    text-decoration:none;
+}
 .site-header {
     background-color: $site-dark-bg;
     /*border-top: 5px solid $grey-color-dark;*/
