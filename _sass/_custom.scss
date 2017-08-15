@@ -186,7 +186,7 @@ article.intro-block{
     border:0; background-position:center center;background-size:cover;background-repeat:no-repeat;
     background-image: url('../images/self.gif');width:220px;height:365px;
     filter: blur(0px) hue-rotate(77deg) saturate(81%) contrast(125%);
-    transition: all 0.5s ease-out; 
+    transition: all 0.5s ease-out; overflow-y:hidden;
      // transition: background-image 4.3s ease-out; 
      &:hover{
          filter: none;
@@ -194,29 +194,30 @@ article.intro-block{
     &:hover .text-container{
         filter: blur(0);
         opacity: 1;
-        bottom:  -170px;;
-        border:1px solid yellow;
         position:relative;
-        top:inherit;
+        top:223px;
     }
     a{
         display: block;
         position: relative;
         // top: 0;
         left: 0;
+        transition: all 10.3s ease-out;
         }
     .text-container{
-        opacity:0;
+        opacity:1;
         width: inherit;
         background: rgba(255,255,255,0.75);
         text-align: left;
-        padding: 1em;
-        position: relative;
-        bottom: -900px;
-        color: #000000;
+        padding: 0.5em 1em;
+        bottom: -105px;
+        color: #333;
         position:absolute;
         border:0;
         transition: all 0.3s ease-out;
+        h3{
+            padding:0;margin:0;
+        }
     }
 }
 
