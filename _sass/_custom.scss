@@ -118,16 +118,23 @@ h2.greeting [aria-hidden] b{
 // h2.greeting [aria-hidden] b:nth-of-type(7){
 //     display:none;
 // }
-
+.intro .card{
+    color: white;
+    border: 1px solid orange;
+}
+ul.stack{
+   border: 1px solid yellow;
+   bottom:-50px;
+}
 figure.photo{
         img.self-pic{
         display:block;
         width:220px;
         margin:0 auto;
         transition: all 0.3s cubic-bezier(.78,.29,.53,.83);
-        clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+        // clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
             &:hover{
-                clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+                // clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
                 filter: blur(5px) hue-rotate(215deg) saturate(99%);
                 ~ figcaption{
                         text-align: left;
@@ -172,9 +179,49 @@ article.intro-block{
     }
 }
 
+.intro2{
+    display:flex; justify-content:center;margin:1em;
+}
+.card2{
+    border:0; background-position:center center;background-size:cover;background-repeat:no-repeat;
+    background-image: url('../images/self.gif');width:220px;height:365px;
+    filter: blur(0px) hue-rotate(77deg) saturate(81%) contrast(125%);
+    transition: all 0.5s ease-out; 
+     // transition: background-image 4.3s ease-out; 
+     &:hover{
+         filter: none;
+    }
+    &:hover .text-container{
+        filter: blur(0);
+        opacity: 1;
+        bottom:  -170px;;
+        border:1px solid yellow;
+        position:relative;
+        top:inherit;
+    }
+    a{
+        display: block;
+        position: relative;
+        // top: 0;
+        left: 0;
+        }
+    .text-container{
+        opacity:0;
+        width: inherit;
+        background: rgba(255,255,255,0.75);
+        text-align: left;
+        padding: 1em;
+        position: relative;
+        bottom: -900px;
+        color: #000000;
+        position:absolute;
+        border:0;
+        transition: all 0.3s ease-out;
+    }
+}
 
 
-@supports (display: grid) { 
+@supports (display: VVgrid) { 
 
 .home{
     display:grid;
@@ -325,7 +372,8 @@ section.intro{
 }
 .full{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     clear: both;
-
+    font-size:2.5em;
 }
+

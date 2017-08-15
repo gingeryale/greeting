@@ -190,7 +190,11 @@
 .page-content {
     padding: $spacing-unit;
     background-color: rgba(33,33,75,0.6);
-    color:lighten($foam-color, 34%);
+    color:lighten($foam-color, 30%);
+    font-size: 1.15em;
+    a{
+        color:lighten($foam-color, 30%);
+    }
 }
 
 .page-heading {
