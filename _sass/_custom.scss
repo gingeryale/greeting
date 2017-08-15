@@ -134,30 +134,7 @@ ul.stack{
    border: 1px solid yellow;
    bottom:-50px;
 }
-figure.photo{
-        img.self-pic{
-        display:block;
-        width:220px;
-        margin:0 auto;
-        transition: all 0.3s cubic-bezier(.78,.29,.53,.83);
-        // clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
-            &:hover{
-                // clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
-                filter: blur(5px) hue-rotate(215deg) saturate(99%);
-                ~ figcaption{
-                        text-align: left;
-                    }
-                }
-        }
-    figcaption.pic-desc{
-    width:220px;
-    margin:0 auto;
-    text-align:center;
-    transition: all 0.9s ease;
-    color: $whitesmoke-alpha;
-    line-height: 2rem;
-    }
-}
+
 
 article.intro-block{
     width:67vw;
@@ -198,7 +175,7 @@ article.intro-block{
      &:hover{
          filter: none;
      }
-    &:hover .text-container{
+     &:hover .text-container{
         opacity: 1;
         position:relative;
         top:237px;
@@ -389,8 +366,41 @@ section.intro{
 }
 .full{
     display: flex;
+    flex-direction:column;
     justify-content: center;
     clear: both;
-    font-size:1.8em;
+    font-size:1em;
+    p{
+        text-align: center;
+    }
+    figure.photo{
+        width:40%;
+        text-align:right;
+        margin:0 auto;
+        &:hover img.self-pic{
+            // clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+                clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+                filter: blur(0px) hue-rotate(0deg) saturate(0%);
+                // ~ figcaption{
+                //         text-align: left;
+                //     }
+        }
+        img.self-pic{
+        display:block;
+        width:220px;
+        margin:0 auto;
+        transition: all 0.3s cubic-bezier(.78,.29,.53,.83);
+        filter: blur(5px) hue-rotate(215deg) saturate(99%);
+        transform: scale(0.7);
+        // clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+            
+        }
+    figcaption.pic-desc{
+    margin:-40px auto 0;
+    transition: all 0.9s ease;
+    color: $whitesmoke-alpha;
+    text-align: center;
+        }
+    }
 }
 
