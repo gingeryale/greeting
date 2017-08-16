@@ -366,7 +366,6 @@ section.intro{
 }
 .full{
     display: flex;
-    flex-direction:column;
     justify-content: center;
     clear: both;
     font-size:1em;
@@ -374,8 +373,6 @@ section.intro{
         text-align: center;
     }
     figure.photo{
-        width:40%;
-        text-align:right;
         margin:0 auto;
         &:hover img.self-pic{
             // clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
@@ -386,7 +383,6 @@ section.intro{
                 //     }
         }
         img.self-pic{
-        display:block;
         width:220px;
         margin:0 auto;
         transition: all 0.3s cubic-bezier(.78,.29,.53,.83);
