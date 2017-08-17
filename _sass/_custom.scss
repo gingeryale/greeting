@@ -328,6 +328,10 @@ section.intro{
     transition: all 0.9s ease;
     color: $whitesmoke-alpha;
     text-align: center;
+    line-height:1.8em;
+    span{
+            display:block;
+    }
         }
     }
     .social-links{
