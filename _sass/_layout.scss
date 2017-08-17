@@ -116,9 +116,6 @@
     a{
         color: $blue-neon;
     }
-    p{
-        padding:0.4em;
-    }
  }
 .site-footer {
     border-top: 1px solid $grey-color-light;
@@ -190,9 +187,9 @@
  * Page content
  */
 .page-content {
-    padding: $spacing-unit;
-    background-color: rgba(1, 27, 68, 0.58);
-    color:lighten($foam-color, 30%);
+    // padding: $spacing-unit;
+    background-color: rgba(29, 97, 120, 0.5);
+    color:lighten($foam-color, 34%);
     font-size: 1.15em;
     a{
         color:lighten($foam-color, 30%);
@@ -233,8 +230,11 @@
 
 .post-title {
     font-size: 1.85em;
-    letter-spacing: -0.331px;
     line-height: 1;
+    background-color: rgba(4, 197, 128, 0.49019607843137253);
+    text-align: center;
+    padding: 0.5em;
+    margin:0;
 
     @include media-query($on-laptop) {
         font-size: 36px;
@@ -243,7 +243,8 @@
 
 .post-content {
     margin-bottom: $spacing-unit;
-
+    padding:1em;
+    margin-bottom:0;
     h2 {
         font-size: 32px;
 

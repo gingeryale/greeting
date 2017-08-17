@@ -45,8 +45,8 @@ $step: $step + 1;
 
     > svg {
         display: inline-block;
-        width: 18px;
-        height: 18px;
+        width: 36px;
+        height: 36px;
         vertical-align: middle;
 
         path {
@@ -72,7 +72,7 @@ body{
 	border:3px solid $blue-neon;
     font-family: Avenir, Futura, 'Open Sans', 'Gill Sans', 'Helvetica Neue', Arial, sans-serif;
     min-height: 100vh;
-    background-color: rgb(233, 232, 249);;
+    background-color: rgb(233, 232, 249);
     background-image: url('https://c2.staticflickr.com/8/7739/17668630904_7932a02c7d_k.jpg');
     background-position: 40% 10%;
 }
@@ -208,7 +208,7 @@ article.intro-block{
             }
         }
         span.card-link{
-            margin-left: 40%;
+            margin-left: 39%;
             text-transform:uppercase;
             a{
                 color: currentColor;
@@ -288,69 +288,6 @@ section.intro{
 }
 
 
-
-
-
-    
-
-
-@media screen and (max-width: $desktop-std) {
-    h2.greeting [aria-hidden] {
-        > b{
-            // width: 2.2em;
-        }
-    }
-    .snapshot .card .text-container{
-        top: 237px;
-    }
-}
-
-@media screen and (max-width: $lg-tablet){
-    h2.greeting [aria-hidden] {
-    justify-content: center;
-    }
-}
-@media screen and (max-width: $tablet) {
-    h2.greeting [aria-hidden] {
-        justify-content: center;
-        > b{
-            // width: 3em;
-        }
-    }
-}
-
-
-@media screen and (max-width: $med-mobile) {
-    h2.greeting [aria-hidden] b{
-        height: calc(2rem + 3vh);
-        font-size: 1.3rem;
-        // width: 3.4em;
-    }
-    figure.photo img.self-pic, figure.photo figcaption.pic-desc{
-        width:175px;
-    }
-    article.intro-block{
-        padding: 0 1em;
-        > p span.headline{
-            font-size: 1.25em;
-        }
-        > p{
-            font-size: 1.1em;
-        }
-    }
-    .footer-col ul {
-        padding-left: 1em;
-    }
-
-
-}
-
-@media screen and (max-width: $xtra-small) {
-    h2.greeting [aria-hidden]{
-            padding: 0.55em;
-        }
-}
-
 .fl{
     float: left;
     display: inline-block;
@@ -373,7 +310,7 @@ section.intro{
         text-align: center;
     }
     figure.photo{
-        margin:0 auto;
+        text-align:center;
         &:hover img.self-pic{
             // clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
                 clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
@@ -383,20 +320,123 @@ section.intro{
                 //     }
         }
         img.self-pic{
-        width:220px;
-        margin:0 auto;
+        width:154px;
         transition: all 0.3s cubic-bezier(.78,.29,.53,.83);
-        filter: blur(5px) hue-rotate(215deg) saturate(99%);
-        transform: scale(0.7);
-        // clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
-            
+        filter: blur(5px) hue-rotate(215deg) saturate(99%);            
         }
     figcaption.pic-desc{
-    margin:-40px auto 0;
     transition: all 0.9s ease;
     color: $whitesmoke-alpha;
     text-align: center;
         }
     }
+    .social-links{
+            ul{
+                list-style-type:none;
+                padding:0;
+                li{
+                    margin:2em 0 3em 0;
+                    .username{
+                        font-size:1.25em;
+                        padding-left:0.35em;
+                    }
+                }
+            }
+        }
 }
 
+
+    
+
+
+@media screen and (max-width: $desktop-std) {
+    h2.greeting [aria-hidden] {
+        > b{
+            // width: 2.2em;
+        }
+    }
+    .snapshot .card .text-container{
+        width:unset;
+        top: 237px;
+    }
+      .fl, .fr{
+    float: none;
+    display: block;
+    width: 82%;
+    clear:none;
+    padding:1em;
+    margin: 0 auto;
+}
+.post-content{
+    padding:0;
+}
+.fr{
+    text-align: right;
+    border-bottom:1px dotted lighten($foam-color, 34%);
+}
+.full{
+    flex-direction:column;
+    .social-links{
+        margin:0 auto;
+    }
+        }
+}
+
+@media screen and (max-width: $lg-tablet){
+    h2.greeting [aria-hidden] {
+    justify-content: center;
+    }
+
+}
+@media screen and (max-width: $tablet) {
+    h2.greeting [aria-hidden] {
+        justify-content: center;
+        > b{
+            // width: 3em;
+        }
+    }
+}
+
+
+@media screen and (max-width: $med-mobile) {
+    h2.greeting [aria-hidden] b{
+        height: calc(2rem + 3vh);
+        font-size: 1.3rem;
+        // width: 3.4em;
+    }
+    article.intro-block{
+        padding: 0 1em;
+        > p span.headline, .rtl-healine{
+            font-size: 1.25em;
+        }
+        > p{
+            font-size: 1.2em;
+        }
+    }
+    .footer-col ul {
+        padding-left: 1em;
+    }
+
+
+}
+
+@media screen and (max-width: $xtra-small) {
+    h2.greeting [aria-hidden]{
+            padding: 0.55em;
+        }
+}
+
+
+
+
+
+.site-footer .wrapper p{
+    font-size:0.81em;
+    color: $grey-color-light;
+    text-align: center;
+    margin:0;
+    padding:1em;
+    span{
+        padding:0 0.5em;
+    }
+}

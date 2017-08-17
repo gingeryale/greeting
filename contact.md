@@ -15,4 +15,25 @@ permalink: /contact/
 	      <figcaption class="pic-desc"><a href="tel:01234567890">(012) 345-6789</a></figcaption>
 	    </figure>
 	  </div>
+
+	  <div class="social-links">
+	  	<ul>
+	  		{% if site.behance_username %}
+          <li>
+            {% include icon-behance.html username=site.behance_username %}
+          </li>
+          {% endif %}
+	  		{% if site.github_username %}
+	  		<li>
+            {% include icon-github.html username=site.github_username %}
+          </li>
+          {% endif %}
+
+          {% if site.twitter_username %}
+          <li>
+            {% include icon-twitter.html username=site.twitter_username %}
+          </li>
+          {% endif %}
+	  	</ul>
+	  </div>
 </div>
