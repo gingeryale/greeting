@@ -83,6 +83,17 @@ permalink: /skills/
 		  		<li class="list-time">2014-2014</li>
 		  		<li class="list-desc">לימוד איטנסיבי ברובי וג'אווה סקריפט</li>
 		</ul>
+
+		<ul dir="rtl" class="listing">
+		  		<li class="list-name">ראנדם האוס - בית הוצאה לאור</li>
+		  		<li class="position">הפקת ספרים אלקטרונים - פרילאנס</li>
+		  		<li class="list-time">2013-2014</li>
+		  		<li class="list-desc">הפקת ספרי דיסני לילדים</li>
+		  		<li class="list-desc">שימוש בפוטושופ, אילסטראטור ואינדסיין <span class="eng">Adobe Photoshop,  Illustrator & InDesign</span></li>
+		  		<li class="list-desc">בדיקת ספרים בשלש הטאבלטים המובילים <span class="eng">Kindle, iPad & Nook</span></li>
+		  		<li class="list-desc">עבודה מצוות מול מועד אחרון קשה</li>
+		</ul>
+
 	</div>
 
 

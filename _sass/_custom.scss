@@ -372,10 +372,11 @@ section.intro{
             list-style-type:square;
         }
         .position, .list-time{
-            list-style-type:' - ';
+            list-style-type:none;
         }
         .list-desc{
-            list-style-type:none;
+
+            list-style-type:' - ';
         }
         li:last-of-type{
             margin-bottom:0.5em;
