@@ -365,7 +365,23 @@ section.intro{
     }
 }
     
-
+.jobs{
+    ul{
+        border-bottom:1px dotted $red-magic;
+        .list-name{
+            list-style-type:square;
+        }
+        .position, .list-time{
+            list-style-type:' - ';
+        }
+        .list-desc{
+            list-style-type:none;
+        }
+        li:last-of-type{
+            margin-bottom:0.5em;
+        } 
+    }
+}
 
 @media screen and (max-width: $desktop-std) {
     h2.greeting [aria-hidden] {
