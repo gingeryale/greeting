@@ -4,12 +4,29 @@ title: Works
 permalink: /works/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
-
-You can find the source code for the Jekyll new theme at:
-{% include icon-github.html username="jglovier" %} /
-[jekyll-new](https://github.com/jglovier/jekyll-new)
-
-You can find the source code for Jekyll at
-{% include icon-github.html username="jekyll" %} /
-[jekyll](https://github.com/jekyll/jekyll)
+<div class="skill-list">
+	<section class="skill-sec">
+		<ul class="flex-col">
+			<li>HTML</li>
+			<li>CSS</li>
+			<li>jQuery</li>
+			<li>JS</li>
+			<li>Moustache</li>
+		</ul>
+		<ul style="display: inline-flex;flex-direction: column;justify-content:space-around;">
+			<li>JSON / AJAX</li>
+			<li>Gulp / Grunt</li>
+			<li>SASS / LESS</li>
+			<li>Bootstrap / Foundation</li>
+			<li>SEO</li>
+		</ul>
+		<ul class="" style="display: inline-flex;flex-direction: column;justify-content:space-around;">
+			<li>Photoshop</li>
+			<li>Illustrator</li>
+			<li>InDesign</li>
+			<li>InVision</li>
+			<li>Marvel</li>
+			<li>Wordpress Themes</li>
+		</ul>
+	</section>
+</div>

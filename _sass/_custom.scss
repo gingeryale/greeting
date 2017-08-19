@@ -348,28 +348,48 @@ section.intro{
             }
         }
 }
+.flex-list{
+    padding:1em;
+    .flex-wrapper{
+    border-bottom:1px dotted #469573;display:flex;justify-content:space-around;
+    } 
+    .flex-col{
+        display: inline-flex;flex-direction: column;justify-content:space-around;
+    } 
+    @include media-query($on-palm){
+        .skill-sec{
+            display:block;
+        }
+    }
+}
 
 .edu{
-    line-height:0.55em;
     .header-a{
         font-weight:bold;
-        font-size:1.1em;
+        font-size:1em;
     }
     .ital{
         font-style: italic;
-        font-size: 0.9em;
+        font-size: 0.8em;
     }
     .header-b{
         font-weight: lighter;
-        font-size:0.9em;
+        font-size:0.95em;
     }
 }
-    
+hr.divv{
+        border: 1px dotted #469573;
+        width:100%;
+        margin:1.4em 0;
+}
+
 .jobs{
     ul{
-        border-bottom:1px dotted $red-magic;
+        border-bottom:1px dotted #469573;
         .list-name{
-            list-style-type:square;
+            list-style-type:none;
+            font-weight:bold;
+            font-size:1.07em;
         }
         .position, .list-time{
             list-style-type:none;

@@ -3,21 +3,21 @@ layout: page
 title: Skills
 permalink: /skills/
 ---
-<div class="skill-list" style="padding:1em;">
-	<section style="border-bottom:1px dotted #ff006c;display:flex;justify-content:space-around;">
-		<ul class="" style="display: inline-flex;flex-direction: column;justify-content:space-around;">
+<div class="flex-list">
+	<section class="flex-wrapper">
+		<ul class="flex-col">
 			<li>HTML</li>
 			<li>CSS</li>
 			<li>jQuery</li>
 			<li>JS</li>
-			<li>Moustache</li>
+			<li>Moustache / EJS</li>
 		</ul>
 		<ul style="display: inline-flex;flex-direction: column;justify-content:space-around;">
 			<li>JSON / AJAX</li>
 			<li>Gulp / Grunt</li>
 			<li>SASS / LESS</li>
 			<li>Bootstrap / Foundation</li>
-			<li>Webpack</li>
+			<li>SEO</li>
 		</ul>
 		<ul class="" style="display: inline-flex;flex-direction: column;justify-content:space-around;">
 			<li>Photoshop</li>
@@ -30,39 +30,40 @@ permalink: /skills/
 	</section>
 
 	<div class="edu">
-		<h3 class="">Education</h3>
-		<p class="header-a">Baruch College - City University of New York</p>
-		<p class="ital">2000 - 2003</p>
-		<p class="header-b">Major in Marketing & minor in English Literature</p>
-	<br />
-		<p class="header-a">Fashion Institute of Technology - State University of New York</p>
-		<p class="ital">2007-2010</p>
-		<p class="header-b">Major in Communication and Graphic Design</p>
-		<br/>
-		<p class="header-a">General Assemby Coding Bootcamp (NYC)</p>
-		<p class="ital">Aug 2014 - Nov 2014</p>
-		<p class="header-b">Principles of OOP using Ruby and JavaScript</p>
-		<br />
-		<p class="header-a">NYU Continuing Education</p>
-		<p class="ital">2011-2012</p>
-		<p class="header-b">Classes in PHP, MySQL & JavaScript</p>
+		<h3 class="">Education / הסקלה</h3>
+		<span class="header-a">Baruch College - City University of New York</span><br />
+		<span class="ital">2000 - 2003</span><br />
+		<span class="header-b">Major in Marketing & minor in English Literature</span>
+	<br /><br />
+		<span class="header-a">Fashion Institute of Technology - State University of New York</span><br />
+		<span class="ital">2007-2010</span><br />
+		<span class="header-b">Major in Communication and Graphic Design</span>
+		<br/><br />
+		<span class="header-a">General Assemby Coding Bootcamp (NYC)</span><br />
+		<span class="ital">Aug 2014 - Nov 2014</span><br />
+		<span class="header-b">Principles of OOP using Ruby and JavaScript</span>
+		<br /><br />
+		<span class="header-a">NYU Continuing Education</span><br />
+		<span class="ital">2011-2012</span><br />
+		<span class="header-b">Classes in PHP, MySQL & JavaScript</span>
 	</div>
-
+<hr class="divv" />
 		  
 
 	<div class="jobs">
-		<h3>Experience</h3>
+		<h3>Experience / ניסיון</h3>
 		<ul dir="rtl" class="listing">
 		  		<li class="list-name">טראנסאלט - אירגון לבטיחות בדרחים</li>
 		  		<li class="position">הפקת דוא״ל</li>
 		  		<li class="list-time">2016-2017</li>
 		  		<li class="list-desc">מינהל והפקת דוא״ל בעמצאות <span class="eng">BlackBaud CRM</span></li>
 		  		<li class="list-desc">כתיבת תוכן אימייל וכתיבת <span class="eng">HTML, CSS</span></li>
+		  		<li class="list-desc">שימוש ב - EXCEL ובניית שאילתות מסד נתונים</li>
 		</ul>
 
 		<ul dir="rtl" class="listing">
 		  		<li class="list-name">מדמים - סטארטאפ בתחום הרפואי</li>
-		  		<li class="position">UX / UI, מעצבת ממשקים, פיתוח משתמש</li>
+		  		<li class="position">UX / UI, מעצבת ממשקים, פיתוח צד המשתמש</li>
 		  		<li class="list-time">2015-2016</li>
 		  		<li class="list-desc">עיצוב ממשקים בעמצאות <span class="eng">HTML, CSS, jQuery</span></li>
 		  		<li class="list-desc">עיצוב מידע והצגת פרוטוטייפ בעזרת <span class="eng">Bootstarp & InVision</span></li>
@@ -71,9 +72,9 @@ permalink: /skills/
 
 		<ul dir="rtl" class="listing">
 		  		<li class="list-name">נוטריפורם - חברת ייצור משקה רפואי</li>
-		  		<li class="position">פראילאנס</li>
+		  		<li class="position">עיצוב גראפי - פראילאנס</li>
 		  		<li class="list-time">2015-2015</li>
-		  		<li class="list-desc">עימוב גראפיקאי מלא של מותג ואתר</li>
+		  		<li class="list-desc">עימוב גראפי מלא של מותג ואתר</li>
 		  		<li class="list-desc">שימוש בפוטושופ ואילסטרטור <span class="eng">Adobe Photoshop & Illustrator</span></li>
 		</ul>
 
@@ -81,7 +82,7 @@ permalink: /skills/
 		  		<li class="list-name">בוטקאמפ בגנראל אסמבלי</li>
 		  		<li class="position">מזגרת לימוד תכנות מונחה-עצמים</li>
 		  		<li class="list-time">2014-2014</li>
-		  		<li class="list-desc">לימוד איטנסיבי ברובי וג'אווה סקריפט</li>
+		  		<li class="list-desc">לימוד מזורז ברובי וג'אווה סקריפט</li>
 		</ul>
 
 		<ul dir="rtl" class="listing">
@@ -93,6 +94,29 @@ permalink: /skills/
 		  		<li class="list-desc">בדיקת ספרים בשלש הטאבלטים המובילים <span class="eng">Kindle, iPad & Nook</span></li>
 		  		<li class="list-desc">עבודה מצוות מול מועד אחרון קשה</li>
 		</ul>
+
+		<ul dir="rtl" class="listing">
+		  		<li class="list-name">סמלות ניו יורק - eCommerce</li>
+		  		<li class="position">UX/UI, עיצוב גראפי - חצי משרה</li>
+		  		<li class="list-time">2010-2014</li>
+		  		<li class="list-desc">עימוב האתר והמותג</li>
+		  		<li class="list-desc">שימוש בפוטושופ, אילסטראטור ואינדסיין <span class="eng">Adobe Photoshop,  Illustrator & InDesign</span></li>
+		  		<li class="list-desc">עריכת תמונות מוצר בפוטושופ </li>
+		  		<li class="list-desc">ייצור והפקת דואר אלקטרוני בעמצאות <span class="eng">Constant Contact & Bronto</span></li>
+		  		<li class="list-desc">קידום אתר בעמצאות SEO</li>
+		  		<li class="list-desc">שימוש ב - EXCEL</li>
+		</ul>
+
+		<ul dir="rtl" class="listing">
+		  		<li class="list-name">LIG Imports - יבואן לפריטים חד-פעמיים</li>
+		  		<li class="position">UX/UI, עיצוב גראפי - חצי משרה</li>
+		  		<li class="list-time">2009-2012</li>
+		  		<li class="list-desc">עיצוב מותגים וקטולוג מחירים</li>
+		  		<li class="list-desc">שימוש בפוטושופ, אילסטראטור ואינדסיין <span class="eng">Adobe Photoshop,  Illustrator & InDesign</span></li>
+		  		<li class="list-desc">עריכת תמונות מוצר בפוטושופ </li>
+		  		<li class="list-desc">ניהול טוויטר וקידום בעזרת SEO</li>
+		</ul>
+
 
 	</div>
 
