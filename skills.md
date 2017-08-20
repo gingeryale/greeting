@@ -80,14 +80,14 @@ permalink: /skills/
 		</ul>
 
 		<ul dir="rtl" class="listing">
-		  		<li class="list-name">בוטקאמפ בגנראל אסמבלי</li>
+		  		<li class="list-name">בוטקאמפ בג׳נראל אסמבלי</li>
 		  		<li class="position">מזגרת לימוד תכנות מונחה-עצמים</li>
 		  		<li class="list-time">2014-2014</li>
 		  		<li class="list-desc">לימוד מזורז ברובי וג'אווה סקריפט</li>
 		</ul>
 
 		<ul dir="rtl" class="listing">
-		  		<li class="list-name">ראנדם האוס - בית הוצאה לאור</li>
+		  		<li class="list-name">ראנדמ האוס - בית הוצאה לאור</li>
 		  		<li class="position">הפקת ספרים אלקטרונים - פרילאנס</li>
 		  		<li class="list-time">2013-2014</li>
 		  		<li class="list-desc">הפקת ספרי דיסני לילדים</li>
@@ -116,6 +116,16 @@ permalink: /skills/
 		  		<li class="list-desc">שימוש בפוטושופ, אילסטראטור ואינדסיין <span class="eng">Adobe Photoshop,  Illustrator & InDesign</span></li>
 		  		<li class="list-desc">עריכת תמונות מוצר בפוטושופ </li>
 		  		<li class="list-desc">ניהול טוויטר וקידום בעזרת SEO</li>
+		</ul>
+
+		<ul dir="rtl" class="listing">
+		  		<li class="list-name">Tri-State Surgical - חברת אספקה רפואית</li>
+		  		<li class="position">UX/UI, עיצוב גראפי, קופירייטר</li>
+		  		<li class="list-time">2009-2010</li>
+		  		<li class="list-desc">קופירייטר לקטולונ מוצרים רפואים</li>
+		  		<li class="list-desc">פוטושופ לתמונות הקטלוג והאתר</li>
+		  		<li class="list-desc"><span class="eng">Adobe Photoshop,  Illustrator & InDesign</span></li>
+		  		<li class="list-desc">SEO, יצירת מותגים ועיצוב אריזות</li>
 		</ul>
 
 
