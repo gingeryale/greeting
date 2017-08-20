@@ -357,8 +357,8 @@ section.intro{
         display: inline-flex;flex-direction: column;justify-content:space-around;
     } 
     @include media-query($on-palm){
-        .skill-sec{
-            display:block;
+        .flex-wraps{
+            flex-direction: column;
         }
     }
 }
