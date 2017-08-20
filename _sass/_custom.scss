@@ -453,9 +453,20 @@ hr.divv{
         list-style-type:none;
         font-size: 0.85em;
         font-weight: lighter;
-        margin:1.1em;
+        margin:0 1.1em;
 
     }
+    .workex{
+        max-width:400px;
+    }
+    @include media-query($on-palm){
+       .workex{
+        max-width:310px;
+    } 
+    }
+}
+.pad1em{
+    padding:1em;
 }
 @media screen and (max-width: $lg-tablet){
     h2.greeting [aria-hidden] {
