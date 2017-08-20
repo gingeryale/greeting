@@ -29,7 +29,7 @@ permalink: /works/
 	<hr class="divv" />
 	<section><p class="works-title">סמלות ניו-יורק</p>
 		<ul class="flex-works">
-			<li><img src="../images/nydbl401px.jpg" class="workex" alt="pic"><br />מיתוג ועיצוב</li>
+			<li><img src="../images/nydBl401px.jpg" class="workex" alt="pic"><br />מיתוג ועיצוב</li>
 			<li><img src="../images/nydB150px.jpg" class="workex" alt="pic"><br /> הפקת מודעות בגוגל</li>
 			<li><img src="../images/nydSD359px.jpg" class="workex" alt="pic"><br /> עיצוב, UX/UI</li>
 		</ul>
