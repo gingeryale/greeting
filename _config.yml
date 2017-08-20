@@ -12,8 +12,8 @@ title: Make it happen ...
 email: "&#103;&#105;&#110;&#097;&#108;&#101;&#055;&#064;&#103;&#109;&#120;&#046;&#099;&#111;&#109;"
 description: > # this means to ignore newlines until "baseurl:"
  &copy; 2017 gingeryale
-baseurl: "/greet" # the subpath of your site, e.g. /blog
-url: "http://yourdomain.com" # the base hostname & protocol for your site
+baseurl: "/greeting" # the subpath of your site, e.g. /blog
+url: "http://gingeryale.github.io" # the base hostname & protocol for your site
 twitter_username: _ttwwa
 github_username:  gingeryale
 behance_username: gingeryale
