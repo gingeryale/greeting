@@ -4,7 +4,7 @@ title: Skills
 permalink: /skills/
 ---
 <div class="flex-list">
-	<section class="flex-wrapper">
+	<section class="flex-wraps">
 		<ul class="flex-col">
 			<li>HTML</li>
 			<li>CSS</li>
@@ -17,14 +17,15 @@ permalink: /skills/
 			<li>Gulp / Grunt</li>
 			<li>SASS / LESS</li>
 			<li>Bootstrap / Foundation</li>
-			<li>SEO</li>
+			<li>Git / Github</li>
+			<li>Node / SPA</li>
 		</ul>
 		<ul class="" style="display: inline-flex;flex-direction: column;justify-content:space-around;">
 			<li>Photoshop</li>
 			<li>Illustrator</li>
 			<li>InDesign</li>
-			<li>InVision</li>
-			<li>Marvel</li>
+			<li>InVision / Marvel</li>
+			<li>SEO</li>
 			<li>Wordpress Themes</li>
 		</ul>
 	</section>
@@ -58,7 +59,7 @@ permalink: /skills/
 		  		<li class="list-time">2016-2017</li>
 		  		<li class="list-desc">מינהל והפקת דוא״ל בעמצאות <span class="eng">BlackBaud CRM</span></li>
 		  		<li class="list-desc">כתיבת תוכן אימייל וכתיבת <span class="eng">HTML, CSS</span></li>
-		  		<li class="list-desc">שימוש ב - EXCEL ובניית שאילתות מסד נתונים</li>
+		  		<li class="list-desc">שימוש ב - EXCEL ושאילתות מסד נתונים לצורך בניית קבוצות</li>
 		</ul>
 
 		<ul dir="rtl" class="listing">

@@ -350,7 +350,7 @@ section.intro{
 }
 .flex-list{
     padding:1em;
-    .flex-wrapper{
+    .flex-wraps{
     border-bottom:1px dotted #469573;display:flex;justify-content:space-around;
     } 
     .flex-col{
@@ -437,6 +437,19 @@ hr.divv{
         }
 }
 
+.flex-works{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    li{
+        max-width:400px;
+        padding:1em;
+        list-style-type:none;
+        font-size: 0.85em;
+        font-weight: lighter;
+
+    }
+}
 @media screen and (max-width: $lg-tablet){
     h2.greeting [aria-hidden] {
     justify-content: center;
