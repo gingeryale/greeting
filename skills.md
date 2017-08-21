@@ -9,8 +9,8 @@ permalink: /skills/
 			<li>HTML</li>
 			<li>CSS</li>
 			<li>jQuery</li>
-			<li>JS</li>
-			<li>Moustache / EJS</li>
+			<li>ES6</li>
+			<li>Templating Langauges</li>
 		</ul>
 		<ul style="display: inline-flex;flex-direction: column;justify-content:space-around;">
 			<li>JSON / AJAX</li>
@@ -32,7 +32,7 @@ permalink: /skills/
 
 	<div class="edu">
 		<h3 class="">Education / השכלה</h3>
-		<span class="header-a">General Assemby Coding Bootcamp (NYC)</span><br />
+		<span class="header-a">General Assembly Coding Bootcamp (NYC)</span><br />
 		<span class="ital">Aug 2014 - Nov 2014</span><br />
 		<span class="header-b">Principles of OOP using Ruby and JavaScript</span>
 		<br /><br />
@@ -56,7 +56,7 @@ permalink: /skills/
 		<h3>Experience / ניסיון</h3>
 		<ul dir="rtl" class="listing">
 		  		<li class="list-name">טראנסאלט - אירגון לבטיחות בדרכים</li>
-		  		<li class="position">הפקת דוא״ל</li>
+		  		<li class="position">תפקיד: הפקת דוא״ל</li>
 		  		<li class="list-time">2016-2017</li>
 		  		<li class="list-desc">מינהל והפקת דוא״ל באמצעות <span class="eng">BlackBaud CRM</span></li>
 		  		<li class="list-desc">כתיבת תוכן אימייל עם <span class="eng">HTML, CSS</span></li>
@@ -65,7 +65,7 @@ permalink: /skills/
 
 		<ul dir="rtl" class="listing">
 		  		<li class="list-name">מדמים - סטארט-אפ בתחום הרפואי</li>
-		  		<li class="position">UX / UI, מעצבת ממשקים, פיתוח צד המשתמש</li>
+		  		<li class="position">תפקיד: UX / UI, מעצבת ממשקים, פיתוח צד המשתמש</li>
 		  		<li class="list-time">2015-2016</li>
 		  		<li class="list-desc">תפקיד: עיצוב ממשקים באמצעות <span class="eng">HTML, CSS, jQuery</span></li>
 		  		<li class="list-desc">עיצוב מידע והצגת פרוטוטייפ בעזרת <span class="eng">Bootstarp & InVision</span></li>
@@ -82,7 +82,7 @@ permalink: /skills/
 
 		<ul dir="rtl" class="listing">
 		  		<li class="list-name">בוטקאמפ בג׳נראל אסמבלי</li>
-		  		<li class="position">תפקיד: מסגרת לימוד תכנות מונחה-עצמים</li>
+		  		<li class="position">מסגרת לימוד תכנות מונחה-עצמים</li>
 		  		<li class="list-time">2014-2014</li>
 		  		<li class="list-desc">לימוד מזורז ברובי וג'אווה סקריפט <span class="eng">Ruby & JavaScript</span></li>
 		</ul>
@@ -101,7 +101,7 @@ permalink: /skills/
 		  		<li class="list-name">סמלות ניו יורק - eCommerce</li>
 		  		<li class="position">תפקיד: UX/UI, עיצוב גראפי - חצי משרה</li>
 		  		<li class="list-time">2010-2014</li>
-		  		<li class="list-desc">עימוב האתר והמותג</li>
+		  		<li class="list-desc">עיצוב האתר והמותג</li>
 		  		<li class="list-desc">שימוש בפוטושופ, אילסטראטור ואינדסיין <span class="eng">Adobe Photoshop,  Illustrator & InDesign</span></li>
 		  		<li class="list-desc">עריכת תמונות מוצר בפוטושופ </li>
 		  		<li class="list-desc">ייצור והפקת דואר אלקטרוני באמצעות <span class="eng">Constant Contact & Bronto</span></li>
