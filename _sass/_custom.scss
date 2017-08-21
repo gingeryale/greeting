@@ -59,8 +59,8 @@ $step: $step + 1;
 * Text rule
 */
 %text-rule {
-        font-size: 1.4em;
-        color: #494949;
+        font-size: 1.2em;
+        color: #3a3a3a;
         line-height: 1.45em;
 }
 
@@ -161,6 +161,8 @@ article.intro-block{
         > p span.rtl-healine{
             color: $red-magic;
             font-weight: bold;
+            font-size: 1.45rem;
+
     }
 }
 
@@ -168,12 +170,12 @@ article.intro-block{
     display:flex; justify-content:center;margin:1em;
     .card{
     border:0; background-position:center center;background-size:cover;background-repeat:no-repeat;
-    background-image: url('../images/self.gif');width:220px;height:365px;
-    filter: hue-rotate(77deg) saturate(81%) contrast(125%);
+    background-image: url('../images/self2.png');width:220px;height:365px;
+    filter: hue-rotate(250deg) saturate(25%) contrast(125%);
     transition: all 0.5s ease-out; overflow-y:hidden;
      // transition: background-image 4.3s ease-out; 
      &:hover{
-         filter: none;
+         filter: hue-rotate(17deg) saturate(15%) contrast(125%);
      }
      &:hover .text-container{
         opacity: 1;
@@ -182,9 +184,8 @@ article.intro-block{
         bottom:0;
     }
     .text-container{
-        opacity:1;
         width: inherit;
-        background: rgba(255,255,255,0.75);
+        background: rgba(255,255,255,0.78);
         text-align: left;
         padding: 0.5em 1em;
         bottom: -105px;
@@ -311,18 +312,18 @@ section.intro{
     }
     figure.photo{
         text-align:center;
-        &:hover img.self-pic{
+        &:hover img.cont-pic{
             // clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
                 clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
-                filter: blur(0px) hue-rotate(0deg) saturate(0%);
+                filter: blur(0px) hue-rotate(115deg) saturate(18%);
                 // ~ figcaption{
                 //         text-align: left;
                 //     }
         }
-        img.self-pic{
+        img.cont-pic{
         width:154px;
         transition: all 0.3s cubic-bezier(.78,.29,.53,.83);
-        filter: blur(5px) hue-rotate(215deg) saturate(99%);            
+        filter: blur(2px) hue-rotate(130deg) saturate(49%);            
         }
     figcaption.pic-desc{
     transition: all 0.9s ease;
@@ -442,6 +443,12 @@ hr.divv{
     font-weight:bold;
     font-size:1.8em;
 }
+.works-title{
+    text-align:right;
+    direction:rtl;
+    font-weight:bold;
+    font-size:1.8em;
+}
 .flex-works{
     display:flex;
     flex-wrap:wrap;
@@ -463,7 +470,7 @@ hr.divv{
        .workex{
         max-width:250px;
         padding:0 0.5em;
-    } 
+        } 
     }
 }
 .pad1em{
@@ -479,7 +486,7 @@ hr.divv{
     h2.greeting [aria-hidden] {
         justify-content: center;
         > b{
-            // width: 3em;
+            height:calc(0.75rem + 10vh);
         }
     }
 }
@@ -489,7 +496,6 @@ hr.divv{
     h2.greeting [aria-hidden] b{
         height: calc(2rem + 3vh);
         font-size: 1.3rem;
-        // width: 3.4em;
     }
     article.intro-block{
         padding: 0 1em;

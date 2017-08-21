@@ -44,7 +44,7 @@ permalink: /skills/
 		<span class="ital">Aug 2014 - Nov 2014</span><br />
 		<span class="header-b">Principles of OOP using Ruby and JavaScript</span>
 		<br /><br />
-		<span class="header-a">NYU Continuing Education</span><br />
+		<span class="header-a">NYU - School for Continuing Education</span><br />
 		<span class="ital">2011-2012</span><br />
 		<span class="header-b">Classes in PHP, MySQL & JavaScript</span>
 	</div>

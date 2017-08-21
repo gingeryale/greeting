@@ -64,6 +64,8 @@ permalink: /works/
 			<li><img src="../images/lig268px.jpg" class="workex" alt="pic"><br />אריזות ומיתוג</li>
 			<li><img src="../images/tss_box300px.jpg" class="workex" alt="pic"><br />אריזות</li>
 			<li><img src="../images/ligAm220px.jpg" class="workex" alt="pic"><br />אריזות</li>
+			<li><img src="../images/ligD300px.jpg" class="workex" alt="pic"><br />אריזות</li>
+			<li><img src="../images/ligDP300px.jpg" class="workex" alt="pic"><br />אריזות</li>
 		</ul>
 	</section>
 	<hr class="divv" />
