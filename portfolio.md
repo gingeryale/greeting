@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Works
-permalink: /works/
+title: Portfolio
+permalink: /portfolio/
 ---
 
 <div class="pad1em">
