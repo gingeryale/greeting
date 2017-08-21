@@ -3,7 +3,9 @@ layout: page
 title: Contact
 permalink: /contact/
 ---
-<div class="fr" dir="ltr">תודה על ביקורכם באתר. אם אהבתם את מה ראיתם נא צרו קשר! אני' מוכנה למשרות שלמות או חלקיות, פרילאנס או קבע<br /> </div>
+<div class="fr" dir="ltr">תודה על ביקורכם באתר,  אם אהבתם את מה שראיתם, אנא צרו קשר.
+אני זמינה לעבודה מלאה, חלקית וכפרילנסר
+<br /> </div>
 <div class="fl">Thanks for stopping by my site. If you liked what you saw, get in touch! I'm available for hire as a fulltime or part time freelance or salaried job. <br /></div>
 <div class="full">
 	

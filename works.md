@@ -35,7 +35,7 @@ permalink: /works/
 		</ul>
 	</section>
 	<hr class="divv" />
-	<section><p class="works-title">ראנדמ האוס</p>
+	<section><p class="works-title">רנדום האוס</p>
 		<ul class="flex-works">
 			<li><img src="../images/rhBB150px.jpg" class="workex" alt="pic"><br />Disney eBooks</li>
 			<li><img src="../images/rhWR150px.jpg" class="workex" alt="pic"><br />Disney eBooks</li>
