@@ -58,8 +58,8 @@ permalink: /skills/
 		  		<li class="list-name">טראנסאלט - אירגון לבטיחות בדרכים</li>
 		  		<li class="position">תפקיד: הפקת דוא״ל</li>
 		  		<li class="list-time">2016-2017</li>
-		  		<li class="list-desc">מינהל והפקת דוא״ל באמצעות <span class="eng">BlackBaud CRM</span></li>
-		  		<li class="list-desc">כתיבת תוכן אימייל עם <span class="eng">HTML, CSS</span></li>
+		  		<li class="list-desc">ניהול והפקה דוא״ל באמצעות <span class="eng">BlackBaud CRM</span></li>
+		  		<li class="list-desc">כתיבת תוכן אימייל ןכתית <span class="eng">HTML, CSS</span></li>
 		  		<li class="list-desc">שימוש ב - EXCEL ושאילתות מסד נתונים לצורך בניית קבוצות</li>
 		</ul>
 
@@ -67,8 +67,8 @@ permalink: /skills/
 		  		<li class="list-name">מדמים - סטארט-אפ בתחום הרפואי</li>
 		  		<li class="position">תפקיד: UX / UI, מעצבת ממשקים, פיתוח צד המשתמש</li>
 		  		<li class="list-time">2015-2016</li>
-		  		<li class="list-desc">תפקיד: עיצוב ממשקים באמצעות <span class="eng">HTML, CSS, jQuery</span></li>
-		  		<li class="list-desc">עיצוב מידע והצגת פרוטוטייפ בעזרת <span class="eng">Bootstarp & InVision</span></li>
+		  		<li class="list-desc">עיצוב ממשקים באמצעות <span class="eng">HTML, CSS, jQuery</span></li>
+		  		<li class="list-desc">עיצוב מידע והצגת דוגמאות בעזרת <span class="eng">Bootstarp & InVision</span></li>
 		  		<li class="list-desc">עבודה בצוות יחד עם מפתח שרת</li>
 		</ul>
 
@@ -76,7 +76,7 @@ permalink: /skills/
 		  		<li class="list-name">נוטריפורם - חברת ייצור משקה רפואי</li>
 		  		<li class="position">תפקיד: עיצוב - פרילנס</li>
 		  		<li class="list-time">2015-2015</li>
-		  		<li class="list-desc">עימוב גראפי מלא של מותג ואתר</li>
+		  		<li class="list-desc">עיצוב מלא של מותג ואתר</li>
 		  		<li class="list-desc">שימוש בפוטושופ ואילסטרטור <span class="eng">Adobe Photoshop & Illustrator</span></li>
 		</ul>
 
@@ -98,7 +98,7 @@ permalink: /skills/
 		</ul>
 
 		<ul dir="rtl" class="listing">
-		  		<li class="list-name">סמלות ניו יורק - eCommerce</li>
+		  		<li class="list-name">שמלות ניו יורק - eCommerce</li>
 		  		<li class="position">תפקיד: UX/UI, עיצוב גראפי - חצי משרה</li>
 		  		<li class="list-time">2010-2014</li>
 		  		<li class="list-desc">עיצוב האתר והמותג</li>

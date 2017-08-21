@@ -27,7 +27,7 @@ permalink: /portfolio/
 		</ul>
 	</section>
 	<hr class="divv" />
-	<section><p class="works-title">סמלות ניו-יורק</p>
+	<section><p class="works-title">שמלות ניו-יורק</p>
 		<ul class="flex-works">
 			<li><img src="../images/nydBl401px.jpg" class="workex" alt="pic"><br />מיתוג ועיצוב</li>
 			<li><img src="../images/nydB150px.jpg" class="workex" alt="pic"><br /> הפקת מודעות בגוגל</li>
@@ -47,7 +47,7 @@ permalink: /portfolio/
 		<ul class="flex-works">
 			<li><img src="../images/eta150px.jpg" class="workex" alt="pic"><br />טראנסאלט (Blauckbaud)</li>
 			<li><img src="../images/etaSI150px.jpg" class="workex" alt="pic"><br />טראנסאלט (Blauckbaud)</li>
-			<li><img src="../images/enyd150px.jpg" class="workex" alt="pic"><br />סמלות ניו-יורק (Bronto)</li>
+			<li><img src="../images/enyd150px.jpg" class="workex" alt="pic"><br />שמלות ניו-יורק (Bronto)</li>
 		</ul>
 	</section>
 	<hr class="divv" />
