@@ -13,7 +13,7 @@ permalink: /contact/
 	    <figure class="photo">
 	      <img class="cont-pic" src="../images/contact.jpg" alt="pic">
 
-	      <figcaption class="pic-desc"><a href="tel:01234567890">(012) 345-6789</a>
+	      <figcaption class="pic-desc"><a href="tel:01234567890">(054) 693-3675</a>
 	      	<span>&#103;&#105;&#110;&#097;&#108;&#101;&#055;&#064;&#103;&#109;&#120;&#046;&#099;&#111;&#109;</span></figcaption>
 	    </figure>
 	  </div>
