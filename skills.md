@@ -31,15 +31,7 @@ permalink: /skills/
 	</section>
 
 	<div class="edu">
-		<h3 class="">Education / הסקלה</h3>
-		<span class="header-a">Baruch College - City University of New York</span><br />
-		<span class="ital">2000 - 2003</span><br />
-		<span class="header-b">Major in Marketing & minor in English Literature</span>
-	<br /><br />
-		<span class="header-a">Fashion Institute of Technology - State University of New York</span><br />
-		<span class="ital">2007-2010</span><br />
-		<span class="header-b">Major in Communication and Graphic Design</span>
-		<br/><br />
+		<h3 class="">Education / השכלה</h3>
 		<span class="header-a">General Assemby Coding Bootcamp (NYC)</span><br />
 		<span class="ital">Aug 2014 - Nov 2014</span><br />
 		<span class="header-b">Principles of OOP using Ruby and JavaScript</span>
@@ -47,6 +39,15 @@ permalink: /skills/
 		<span class="header-a">NYU - School for Continuing Education</span><br />
 		<span class="ital">2011-2012</span><br />
 		<span class="header-b">Classes in PHP, MySQL & JavaScript</span>
+		<br /><br />
+		<span class="header-a">Fashion Institute of Technology - State University of New York</span><br />
+		<span class="ital">2007-2010</span><br />
+		<span class="header-b">Major in Communication and Graphic Design</span>
+		<br/><br />
+		<span class="header-a">Baruch College - City University of New York</span><br />
+		<span class="ital">2000 - 2003</span><br />
+		<span class="header-b">Major in Marketing & minor in English Literature</span>
+	<br /><br />
 	</div>
 <hr class="divv" />
 		  
@@ -54,16 +55,16 @@ permalink: /skills/
 	<div class="jobs">
 		<h3>Experience / ניסיון</h3>
 		<ul dir="rtl" class="listing">
-		  		<li class="list-name">טראנסאלט - אירגון לבטיחות בדרחים</li>
+		  		<li class="list-name">טראנסאלט - אירגון לבטיחות בדרכים</li>
 		  		<li class="position">הפקת דוא״ל</li>
 		  		<li class="list-time">2016-2017</li>
 		  		<li class="list-desc">מינהל והפקת דוא״ל באמצעות <span class="eng">BlackBaud CRM</span></li>
-		  		<li class="list-desc">כתיבת תוכן אימייל וכתיבת <span class="eng">HTML, CSS</span></li>
+		  		<li class="list-desc">כתיבת תוכן אימייל עם <span class="eng">HTML, CSS</span></li>
 		  		<li class="list-desc">שימוש ב - EXCEL ושאילתות מסד נתונים לצורך בניית קבוצות</li>
 		</ul>
 
 		<ul dir="rtl" class="listing">
-		  		<li class="list-name">מדמים - סטארטאפ בתחום הרפואי</li>
+		  		<li class="list-name">מדמים - סטארט-אפ בתחום הרפואי</li>
 		  		<li class="position">UX / UI, מעצבת ממשקים, פיתוח צד המשתמש</li>
 		  		<li class="list-time">2015-2016</li>
 		  		<li class="list-desc">תפקיד: עיצוב ממשקים באמצעות <span class="eng">HTML, CSS, jQuery</span></li>
