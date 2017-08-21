@@ -65,11 +65,11 @@ permalink: /skills/
 
 		<ul dir="rtl" class="listing">
 		  		<li class="list-name">מדמים - סטארט-אפ בתחום הרפואי</li>
-		  		<li class="position">תפקיד: UX / UI, מעצבת ממשקים, פיתוח צד המשתמש</li>
+		  		<li class="position">תפקיד: UX / UI, מעצבת ממשקים, פיתוח צד הלקוח</li>
 		  		<li class="list-time">2015-2016</li>
 		  		<li class="list-desc">עיצוב ממשקים באמצעות <span class="eng">HTML, CSS, jQuery</span></li>
 		  		<li class="list-desc">עיצוב מידע והצגת דוגמאות בעזרת <span class="eng">Bootstarp & InVision</span></li>
-		  		<li class="list-desc">עבודה בצוות יחד עם מפתח שרת</li>
+		  		<li class="list-desc">עבודה בצוות יחד עם מפתח ׳בק-אנד׳</li>
 		</ul>
 
 		<ul dir="rtl" class="listing">
