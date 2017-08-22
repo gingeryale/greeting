@@ -69,7 +69,7 @@ permalink: /skills/
 		  		<li class="list-time">2015-2016</li>
 		  		<li class="list-desc">עיצוב ממשקים באמצעות <span class="eng">HTML, CSS, jQuery</span></li>
 		  		<li class="list-desc">עיצוב מידע והצגת דוגמאות בעזרת <span class="eng">Bootstarp & InVision</span></li>
-		  		<li class="list-desc">עבודה בצוות יחד עם מפתח ׳בק-אנד׳</li>
+		  		<li class="list-desc">עבודה בצוות יחד עם מפתח backend</li>
 		</ul>
 
 		<ul dir="rtl" class="listing">
