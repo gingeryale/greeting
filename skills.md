@@ -32,13 +32,17 @@ permalink: /skills/
 
 	<div class="edu">
 		<h3 class="">Education / השכלה</h3>
+		<span class="header-a">Metis - School for Professional Development (NYC)</span><br />
+		<span class="ital">Feb 2016 - May 2016</span><br />
+		<span class="header-b">Intro to Data Visualization with D3.js</span>
+		<br /><br />
 		<span class="header-a">General Assembly Coding Bootcamp (NYC)</span><br />
 		<span class="ital">Aug 2014 - Nov 2014</span><br />
 		<span class="header-b">Principles of OOP using Ruby and JavaScript</span>
 		<br /><br />
 		<span class="header-a">NYU - School for Continuing Education</span><br />
 		<span class="ital">2011-2012</span><br />
-		<span class="header-b">Classes in PHP, MySQL & JavaScript</span>
+		<span class="header-b">Intro to PHP, MySQL & JavaScript</span>
 		<br /><br />
 		<span class="header-a">Fashion Institute of Technology - State University of New York</span><br />
 		<span class="ital">2007-2010</span><br />
@@ -56,7 +60,7 @@ permalink: /skills/
 		<h3>Experience / ניסיון</h3>
 		<ul dir="rtl" class="listing">
 		  		<li class="list-name">טראנסאלט - אירגון לבטיחות בדרכים</li>
-		  		<li class="position">תפקיד: הפקת דוא״ל</li>
+		  		<li class="position">תפקיד: הפקת דוא״ל - פרילנס</li>
 		  		<li class="list-time">2016-2017</li>
 		  		<li class="list-desc">ניהול והפקה <span class="eng">email</span> (דוא״ל) באמצעות <span class="eng">BlackBaud CRM</span></li>
 		  		<li class="list-desc">כתיבת תוכן אימייל וכתיבת <span class="eng">HTML, CSS</span></li>
@@ -99,7 +103,7 @@ permalink: /skills/
 
 		<ul dir="rtl" class="listing">
 		  		<li class="list-name">שמלות ניו יורק - eCommerce</li>
-		  		<li class="position">תפקיד: UX/UI, עיצוב גראפי - חצי משרה</li>
+		  		<li class="position">תפקיד: UX/UI, עיצוב גראפי - פרילנס</li>
 		  		<li class="list-time">2010-2014</li>
 		  		<li class="list-desc">עיצוב האתר והמותג</li>
 		  		<li class="list-desc">שימוש בפוטושופ, אילסטראטור ואינדסיין <span class="eng">Adobe Photoshop,  Illustrator & InDesign</span></li>
@@ -111,7 +115,7 @@ permalink: /skills/
 
 		<ul dir="rtl" class="listing">
 		  		<li class="list-name">LIG Imports - יבואן לפריטים חד-פעמיים</li>
-		  		<li class="position">תפקיד: UX/UI, עיצוב גראפי - חצי משרה</li>
+		  		<li class="position">תפקיד: UX/UI, עיצוב גראפי - פרילנס</li>
 		  		<li class="list-time">2009-2012</li>
 		  		<li class="list-desc">עיצוב מותגים וקטלוג מחירים</li>
 		  		<li class="list-desc">שימוש בפוטושופ, אילסטראטור ואינדסיין <span class="eng">Adobe Photoshop,  Illustrator & InDesign</span></li>
@@ -125,7 +129,7 @@ permalink: /skills/
 		  		<li class="list-time">2009-2010</li>
 		  		<li class="list-desc">קופירייטר לקטלוג מוצרים רפואים</li>
 		  		<li class="list-desc">פוטושופ לתמונות הקטלוג והאתר</li>
-		  		<li class="list-desc"><span class="eng">Adobe Photoshop,  Illustrator & InDesign</span></li>
+		  		<li class="list-desc"><span class="eng">Adobe Photoshop, Illustrator & InDesign</span></li>
 		  		<li class="list-desc">SEO, יצירת מותגים ועיצוב אריזות</li>
 		</ul>
 

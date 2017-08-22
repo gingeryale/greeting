@@ -4,7 +4,7 @@ title: Contact
 permalink: /contact/
 ---
 <div class="fr" dir="rtl">תודה על ביקורכם באתר,  אם אהבתם את מה שראיתם, אנא צרו קשר.
-אני זמינה לעבודה מלאה, חלקית וכפרילנסר.
+אני זמינה למשרה מלאה, חלקית וכפרילנסר.
 <br /> </div>
 <div class="fl">Thanks for stopping by my site. If you liked what you saw, get in touch! I'm available for hire as a fulltime or part time freelance or salaried position. <br /></div>
 <div class="full">
