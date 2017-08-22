@@ -58,8 +58,8 @@ permalink: /skills/
 		  		<li class="list-name">טראנסאלט - אירגון לבטיחות בדרכים</li>
 		  		<li class="position">תפקיד: הפקת דוא״ל</li>
 		  		<li class="list-time">2016-2017</li>
-		  		<li class="list-desc">ניהול והפקה דוא״ל באמצעות <span class="eng">BlackBaud CRM</span></li>
-		  		<li class="list-desc">כתיבת תוכן אימייל ןכתית <span class="eng">HTML, CSS</span></li>
+		  		<li class="list-desc">ניהול והפקה <span class="eng">email</span> (דוא״ל) באמצעות <span class="eng">BlackBaud CRM</span></li>
+		  		<li class="list-desc">כתיבת תוכן אימייל וכתיבת <span class="eng">HTML, CSS</span></li>
 		  		<li class="list-desc">שימוש ב - EXCEL ושאילתות מסד נתונים לצורך בניית קבוצות</li>
 		</ul>
 
