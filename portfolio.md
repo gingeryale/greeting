@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Works
-permalink: /works/
+title: Portfolio
+permalink: /portfolio/
 ---
 
 <div class="pad1em">
@@ -27,7 +27,7 @@ permalink: /works/
 		</ul>
 	</section>
 	<hr class="divv" />
-	<section><p class="works-title">סמלות ניו-יורק</p>
+	<section><p class="works-title">שמלות ניו-יורק</p>
 		<ul class="flex-works">
 			<li><img src="../images/nydBl401px.jpg" class="workex" alt="pic"><br />מיתוג ועיצוב</li>
 			<li><img src="../images/nydB150px.jpg" class="workex" alt="pic"><br /> הפקת מודעות בגוגל</li>
@@ -35,7 +35,7 @@ permalink: /works/
 		</ul>
 	</section>
 	<hr class="divv" />
-	<section><p class="works-title">ראנדמ האוס</p>
+	<section><p class="works-title">רנדום האוס</p>
 		<ul class="flex-works">
 			<li><img src="../images/rhBB150px.jpg" class="workex" alt="pic"><br />Disney eBooks</li>
 			<li><img src="../images/rhWR150px.jpg" class="workex" alt="pic"><br />Disney eBooks</li>
@@ -47,7 +47,7 @@ permalink: /works/
 		<ul class="flex-works">
 			<li><img src="../images/eta150px.jpg" class="workex" alt="pic"><br />טראנסאלט (Blauckbaud)</li>
 			<li><img src="../images/etaSI150px.jpg" class="workex" alt="pic"><br />טראנסאלט (Blauckbaud)</li>
-			<li><img src="../images/enyd150px.jpg" class="workex" alt="pic"><br />סמלות ניו-יורק (Bronto)</li>
+			<li><img src="../images/enyd150px.jpg" class="workex" alt="pic"><br />שמלות ניו-יורק (Bronto)</li>
 		</ul>
 	</section>
 	<hr class="divv" />
@@ -64,6 +64,8 @@ permalink: /works/
 			<li><img src="../images/lig268px.jpg" class="workex" alt="pic"><br />אריזות ומיתוג</li>
 			<li><img src="../images/tss_box300px.jpg" class="workex" alt="pic"><br />אריזות</li>
 			<li><img src="../images/ligAm220px.jpg" class="workex" alt="pic"><br />אריזות</li>
+			<li><img src="../images/ligD300px.jpg" class="workex" alt="pic"><br />אריזות</li>
+			<li><img src="../images/ligDP300px.jpg" class="workex" alt="pic"><br />אריזות</li>
 		</ul>
 	</section>
 	<hr class="divv" />
